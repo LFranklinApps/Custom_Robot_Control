@@ -1,6 +1,6 @@
 # Custom Robot Control
 
-Library for communicating with the Custom Robot Control app over Bluetooth® Low Energy (BLE).
+Library for communicating with the [Custom Robot Control](https://play.google.com/store/apps/details?id=com.lf.customrobotcontrol) app over Bluetooth® Low Energy (BLE). For more information, view the [user manual](https://musician-app-pro.web.app/manual.pdf).
 
 ## Description
 
@@ -52,8 +52,8 @@ void loop() {
     if(controller.isUpdated(0))
       Serial.println("New Value: " + String(controller.read(0)));
     
-    // Writes the number of uptime seconds to index 127 (the highest index) of the Bluetooth® array
-    controller.write(127, (int)(millis() / 1000UL));
+    // Writes the number of uptime seconds to index 9 (the highest index) of the Bluetooth® array
+    controller.write(9, (long)(millis() / 1000UL));
   
   }
 
