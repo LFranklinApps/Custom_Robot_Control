@@ -25,8 +25,8 @@ void loop() {
     if(controller.isUpdated(0))
       Serial.println("New Value: " + String(controller.read(0)));
     
-    // Writes the number of uptime seconds to index 127 (the highest index) of the Bluetooth® array
-    controller.write(127, (int)(millis() / 1000UL));
+    // Writes the number of uptime seconds to index 9 (the highest index) of the Bluetooth® array
+    controller.write(9, (long)(millis() / 1000UL));
   
   }
 
