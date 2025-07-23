@@ -18,16 +18,17 @@ class Custom_Robot_Control
     bool begin();
     bool loop();
     bool isConnected();
-    bool write(int index, int value);
-    int read(int index);
-    bool isUpdated(int index);
+    bool write(long index, long value);
+    long read(long index);
+    bool isUpdated(long index);
   private:
       bool readBuffer();
       bool writeBuffer();
-      int _pin;
+      void intsToBytes();
+      void bytesToInts();
       String _name;
-      int intArray[128];
-      int intArrayWritten[128];
+      long longArray[10];
+      long longArrayWritten[10];
 
 
 
