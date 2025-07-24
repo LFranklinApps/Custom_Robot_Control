@@ -4,6 +4,8 @@ Library for communicating with the [Custom Robot Control](https://play.google.co
 
 ## Description
 
+Custom Robot Control enables users to easily control their Arduino projects remotely. The app can be downloaded [here](https://play.google.com/store/apps/details?id=com.lf.customrobotcontrol). As of July 2025, it is still in closed testing on the Google Play Store. To install the app, you currently must join the [Google Group](https://groups.google.com/g/custom-robot-control). If the links do not work or if you have other difficulties, please post on the discussions. The expected publishing date is 08/09/2025.
+
 No knowledge of Bluetooth® is necessary. This library provides an array of integers that is shared between the Arduino board and the Custom Robot Control app. Other third-party software can be used with this library as well. Supports the following boards: Arduino MKR WiFi 1010, Arduino UNO WiFi Rev2, Arduino Nano 33 IoT, Arduino Nano 33 BLE, Nicla Sense ME, and UNO R4 WiFi. Other boards may compile, but they will not function correctly with this library. 
 
 ## Minimal Example
