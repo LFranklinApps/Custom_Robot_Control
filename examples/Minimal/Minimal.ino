@@ -3,9 +3,9 @@
 Custom_Robot_Control controller; // See the complete example for more info.
 
 void setup() {
-  controller.begin(); // Start the Bluetooth® Low Energy controller
+  controller.begin(); // This line starts the Bluetooth® Low Energy controller.
 }
 
 void loop() {
-  controller.loop(); // Must be called as often as possible; does essential background work
+  controller.loop(); // Must be called as often as possible; does essential background work.
 }
