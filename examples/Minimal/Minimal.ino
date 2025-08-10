@@ -1,6 +1,6 @@
 #include "Custom_Robot_Control.h"
 
-Custom_Robot_Control controller;
+Custom_Robot_Control controller; // See the complete example for more info.
 
 void setup() {
   controller.begin(); // Start the Bluetooth® Low Energy controller
