@@ -1,6 +1,12 @@
-// This library is designed to accompany the Custom Robot Control app.
-// Alternative third-party software for advanced users includes LightBlue® for mobile devices.
-// Advanced users are also encouraged to develop their own mobile applications to use with this library.
+/***************************************************************************************************************************** /
+ * 
+ * This library is designed to accompany the Custom Robot Control app.
+ * Download the app: https://play.google.com/store/apps/details?id=com.lf.customrobotcontrol&listing=arduinolibrary
+ * Documentation: https://musician-app-pro.web.app/manual.pdf#page=3
+ * Tutorials: https://musician-app-pro.web.app/manual.pdf#page=4
+ * 
+/ *****************************************************************************************************************************/
+
 
 #include "Custom_Robot_Control.h"
 
